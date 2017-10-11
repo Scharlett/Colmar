@@ -1,0 +1,129 @@
+html {
+  display: flex;
+}
+.row {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.header p {
+  display: inline-flex;
+  font-size: 32px;
+  text-align: left;
+  align-items: center;
+}
+
+.header img {
+  padding-left: 24px;
+  margin: auto 0;
+}
+.header ul li {
+  display: inline-flex;
+  padding-right: 24px;
+  text-align: right;
+}
+
+.one {
+  background-color: lightgrey;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.banner  img {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.bannerb {
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.bannerb button {
+  background-color: grey
+  display: block;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.information img {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.orientation {
+  width: 40%;
+}
+
+.orientation img {
+  height: auto;
+  width: 35%;
+}
+
+.three {
+  display: flex;
+  padding: 64px 72px 32px 72px;
+  background-color: lightgrey;
+}
+
+.three img {
+  height: auto;
+  width: 100%;
+}
+
+.three h1 {
+  text-align: center;
+  padding-top: 32px;
+}
+.small {
+  background-color: white;
+  margin: 32px 32px;
+  text-align: left;
+}
+.thesis h1 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.four video {
+  width: 60%;
+  padding: 32px 24px 24px;
+}
+.fisma {
+  width: 40%;
+}
+
+.fisma img{
+  width: 35%;
+  height: auto;
+}
+.fisma h2, .fisma p {
+  width: 60%;
+  display: inline;
+  text-align: center;
+  margin: 16px;
+}
+
+.six {
+  display: flex;
+  padding: 16px 24px;
+}
+
+.six ul li {
+  display: inline-flex;
+  justify-content: space-around;
+  padding-right: 24px;
+  margin: auto 0;
+  text-align: right;
+}
