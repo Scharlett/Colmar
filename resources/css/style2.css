@@ -145,13 +145,15 @@ html {
   background-color: lightgrey;
 }
 
+.unos p, .dos p{
+  text-align: center;
 
-.six {
+. {
   display: flex;
   padding: 16px 24px;
 }
 
-.six ul li {
+.nav{
   display: inline-flex;
   justify-content: space-around;
   padding-right: 24px;

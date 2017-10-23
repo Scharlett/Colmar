@@ -1,19 +1,176 @@
+html {
+  display: flex;
+  background-color: #DCDCDC;
+}
+/*header section*/
 .header {
+  display: flex;
   height: 64px;
-  padding-right: 24px;
+  align-items: center;
+  background-color: white;
   justify-content: space-between;
 }
 
 .header img {
-  display: inline-block;
+  display: inline-flex;
   padding-left: 24px;
 }
 
-.header span {
+.header h1 {
+  display: inline-flex;
+  font-size: 32px;
+  float: left;
+}
+
+.header ul li {
   display: inline;
+  padding-right: 24px;
+}
+
+a:visited {
+    color: black;
+}
+/*first section */
+.one {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.one img{
+  display: inline-flex;
+  width: 60%;
+  padding: 32px 24px;
+  height: auto;
+}
+
+.banner {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.banner button {
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+/*second section*/
+.two {
+  display: flex;
+}
+
+.tron{
+  display: inline-block;
+  padding: 32px 24px;
+  width: 60%;
+  font-size: 20px;
+}
+.tron img {
+  width: 100%;
+}
+
+.minitron {
+  display: inline-block;
+  font-size: 18px;
+  align-items: center;
+  height: auto;
+  width: 40%;
+}
+.minitron img {
+  width: 35%;
+  margin: 0 auto;
+  padding: 16px;
+  height: auto;
+
+}
+.minitron h3, .minitron p {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.orientation {
+  display: inline-flex;
+}
+
+.campus {
+  display: inline-flex;
+}
+.lecture {
+  display: inline-flex;
+  background-color: lightgrey;
+}
+/*third section*/
+.three {
+  display: block;
+  background-color: lightgrey;
+  padding: 32px 72px;
+  align-content: center;
+  font-size: 32px;
+  text-align: center;
+}
+
+.block, .blockk {
+  display: inline-flex;
+}
+
+.software, .computer, .design, .data, .business, .marketing {
+  display: inline-block;
+  padding-bottom: 32px;
+  background-color: white;
+  margin: 32px;
+  padding-bottom: 24px;
+  flex-wrap: wrap;
+}
+/*fourth section, video*/
+.four {
+  display: flex;
+}
+
+.video {
+  display: inline-block;
+  padding: 32px 24px;
+  font-size: 20px;
+}
+.video video {
+  width: 60%;
+}
+.col {
+  display: inline-block;
+  align-content: center;
+  width: 40%;
+}
+
+.col p {
+  display: inline-block;
+  margin: auto 0;
+  padding-left: 16px;
+  width: 65%;
+}
+.col img {
+  width: 35%;
+}
+.now, .fisma {
+  display: inline-flex;
+  padding: 16px;
+}
+
+.fisma {
+  background-color: grey;
+}
+/*footer section*/
+
+footer {
+  display: flex;
+  padding: 16px 24px;
   justify-content: space-between;
 }
-.header h1{
-  font-size: 32px;
-  text-align: left;
+
+footer ul li {
+  display: inline-flex;
+  text-decoration: none;
+  list-style-type: none;
 }
