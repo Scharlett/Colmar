@@ -30,6 +30,7 @@ html {
 a:visited {
     color: black;
 }
+
 /*first section */
 .one {
   display: flex;
@@ -128,38 +129,34 @@ a:visited {
 /*fourth section, video*/
 .four {
   display: flex;
+  padding-top: 32px;
 }
-
-.video {
+.content {
   display: inline-block;
   padding: 32px 24px;
-  font-size: 20px;
 }
-.video video {
+.content video {
   width: 60%;
 }
 .col {
   display: inline-block;
-  align-content: center;
-  width: 40%;
 }
-
-.col p {
-  display: inline-block;
+.col h3, .col p{
   margin: auto 0;
   padding-left: 16px;
-  width: 65%;
 }
-.col img {
-  width: 35%;
-}
-.now, .fisma {
+.fisma, .now {
   display: inline-flex;
-  padding: 16px;
+  margin: 0 auto;
+  align-content: center;
 }
-
 .fisma {
   background-color: grey;
+}
+
+.fisma img, .now img {
+  width: 35%;
+  padding: 16px;
 }
 /*footer section*/
 
@@ -173,4 +170,12 @@ footer ul li {
   display: inline-flex;
   text-decoration: none;
   list-style-type: none;
+}
+/*media queries*/
+
+@media only screen and (max-width: 480px){
+  .header { height: 64px;}
+  .one {padding: 32px 16px;}
+  .minitron {padding-top: 16px; padding-bottom: 32px;}
+  .orientation, .campus, .lecture{padding-bottom: 64px;}
 }
